@@ -10,3 +10,14 @@ body{
     color: #FFFFFF;
     height:100vh;
 }
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-bar{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
