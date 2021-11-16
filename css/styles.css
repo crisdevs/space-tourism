@@ -11,6 +11,12 @@ body{
     height:100vh;
 }
 
+nav ul{
+    display: flex;
+    grid-area: nav-links;
+    justify-content: space-evenly;
+}
+
 .wrapper{
     width: 90%;
     margin: 0 auto;
@@ -18,6 +24,13 @@ body{
 
 .header-bar{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-areas: "logo nav-links"
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.fa-times {
+    display: none;
 }
